@@ -1,0 +1,37 @@
+<template>
+    <div>
+        <h2>Basic Conditionals with Templates</h2>
+        <template lwc:if={conditions.primary}>
+            Showing content for lwc:if
+        </template>
+        <template lwc:elseif={conditions.secondary}>
+            Showing content for lwc:elseif
+        </template>
+        <template lwc:else> Showing content for lwc:else </template>
+    </div>
+
+    <div>
+        <h2>Basic Conditionals with Elements</h2>
+        <h1 lwc:if={conditions.primary}>
+            Showing content for lwc:if
+            <div class=""></div>
+        </h1>
+        <h2 lwc:elseif={conditions.secondary}>
+            Showing content for lwc:elseif
+        </h2>
+        <h3 lwc:else>Showing content for lwc:else</h3>
+    </div>
+
+    <div>
+        <h2>Basic Conditionals with Components</h2>
+        <lightning-card lwc:if={conditions.primary}>
+            Showing content for lwc:if
+        </lightning-card>
+        <lightning-button
+            lwc:elseif={conditions.secondary}
+            label="Button for lwc:elseif"
+            onclick={handleButtonClick}
+        ></lightning-button>
+        <div lwc:else>Showing content for lwc:else</div>
+    </div>
+</template>

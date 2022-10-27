@@ -1,6 +1,6 @@
 <template>
     <lightning-card title="Property QR Code Scanner" icon-name="utility:scan">
-        <template if:false={scanButtonDisabled}>
+        <template lwc:if={scanButtonDisabled}>
             <!-- Static help text -->
             <div
                 class="slds-text-align_center slds-text-color_weak slds-var-m-vertical_large slds-var-p-horizontal_small"
@@ -24,7 +24,7 @@
             </div>
         </template>
 
-        <template if:true={scanButtonDisabled}>
+        <template lwc:else>
             <div
                 data-test="scanner-directions"
                 class="slds-text-align_center slds-text-color_weak slds-var-m-vertical_large slds-var-p-horizontal_small"

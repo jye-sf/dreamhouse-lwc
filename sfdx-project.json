@@ -17,5 +17,7 @@
         "DreamhouseLWC@55.0.0-24": "04t3h000004mAlZAAU",
         "DreamhouseLWC@55.0.0-25": "04t3h000004mB2TAAU",
         "DreamhouseLWC@55.0.0-29": "04t3h000004mBEHAA2"
-    }
+    },
+    "sfdcLoginUrl" : "https://login.stmfa.stm.salesforce.com",
+    "signupTargetLoginUrl" : "https://test.stmfa.stm.salesforce.com"
 }

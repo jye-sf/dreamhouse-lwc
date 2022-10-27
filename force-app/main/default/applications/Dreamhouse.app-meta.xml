@@ -4,26 +4,6 @@
         <actionName>View</actionName>
         <comment
         >Action override created by Lightning App Builder during activation.</comment>
-        <content>Property_Record_Page</content>
-        <formFactor>Small</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
-        <pageOrSobjectType>Property__c</pageOrSobjectType>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
-        <comment
-        >Action override created by Lightning App Builder during activation.</comment>
-        <content>Property_Record_Page</content>
-        <formFactor>Large</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
-        <pageOrSobjectType>Property__c</pageOrSobjectType>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
-        <comment
-        >Action override created by Lightning App Builder during activation.</comment>
         <content>Broker_Record_Page</content>
         <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
@@ -39,6 +19,26 @@
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
         <pageOrSobjectType>Broker__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment
+        >Action override created by Lightning App Builder during activation.</comment>
+        <content>Property_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Property__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment
+        >Action override created by Lightning App Builder during activation.</comment>
+        <content>Property_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Property__c</pageOrSobjectType>
     </actionOverrides>
     <brand>
         <headerColor>#86BD4A</headerColor>
@@ -48,7 +48,8 @@
     <formFactors>Small</formFactors>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
-    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavPersonalizationDisabled>true</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Dreamhouse</label>
     <navType>Standard</navType>
     <setupExperience>all</setupExperience>
@@ -60,5 +61,6 @@
     <tabs>Broker__c</tabs>
     <tabs>standard-File</tabs>
     <tabs>Settings</tabs>
+    <tabs>Conditionals_Dashboard</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>
